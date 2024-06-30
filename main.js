@@ -58,6 +58,11 @@ const obj = {
           (videoList[currentIndex].duration || 77) * 1000;
       }
       videoList[currentIndex].muted = true;
+
+      if (pause) {
+        let video = videoList[this.realIndex];
+        video.pause();
+      }
     },
   },
 };
