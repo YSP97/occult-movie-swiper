@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="module" src="./data.js"></script>
+    <script type="module" defer src="./main.js"></script>
+    <title>Occult를 좋아하세요?</title>
+</head>
+<body>
+  <header class="header">
+    <img src="./assets/logo.png" alt="로고 이미지" />
+    <span>오컬트 붐은 왔다.</span>
+  </header>
+    <section class="visual-sec">
+        <div class="swiper main-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="video-wrapper">
+                    <video playsinline muted id="">
+                      <source src="./assets/exhuma.mp4" type="video/mp4"/>
+                    </video>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="video-wrapper">
+                    <video playsinline muted>
+                      <source src="./assets/Revenant.mp4" type="video/mp4"/>
+                    </video>
+                  </div>
+                </div>
+        
+                <div class="swiper-slide">
+                  <div class="video-wrapper">
+                    <video playsinline muted>
+                      <source src="./assets/savaha.mp4" type="video/mp4"/>
+                    </video>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="video-wrapper">
+                    <video playsinline muted>
+                      <source src="./assets/sontheguest.mp4" type="video/mp4"/>
+                    </video>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="video-wrapper">
+                    <video playsinline muted id="">
+                      <source src="./assets/the priests.mp4" type="video/mp4"/>
+                    </video>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="video-wrapper">
+                    <video playsinline muted id="">
+                      <source src="./assets/The Wailing.mp4" type="video/mp4"/>
+                    </video>
+                  </div>
+                </div>
+            </div>
+            <div class="control-group">
+              <h1 class="title">파묘</h1>
+              <p class="explain">부유한 집안의 저주를 풀어달라는 의뢰를 받은 유명 무당.<br>조상 묫자리가 화근이니 무덤만 옮기면 될 터였다.<br> 그런데, 파묘 과정에서 그만 끔찍한 존재를 건드린다.</p>
+              <div class="progress-group">
+                <button class="slide-btn">
+                  <i class="fas fa-pause"></i>
+                </button>
+                <div class="all-box">
+                    <div class="progress-box">
+                        <div class="swiper-pagination"></div>
+                        <div class="autoplay-progress">
+                            <svg viewBox="0 0 100 10" preserveAspectRatio="none">
+                                <line x1="0" y1="5" x2="100" y2="5">
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="arrow-box">
+                    <div class="swiper-button swiper-button-prev"></div>
+                    <div class="swiper-button swiper-button-next"></div>
+              </div>
+              <button class="volume-btn">
+                  <i class="fas fa-volume-xmark volume-off"></i>
+              </button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
